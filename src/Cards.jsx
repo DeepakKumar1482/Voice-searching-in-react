@@ -4,7 +4,7 @@ import carddata from "./data";
 const Cards = () => {
   const [usecarddata, setusecarddata] = useState(carddata);
   const [filteredCardData, setFilteredCardData] = useState(usecarddata);
-
+//   console.log(usecarddata)
   const searchValue = (value) => {
     console.log(value);
     const filteredData = usecarddata.filter((card) =>
